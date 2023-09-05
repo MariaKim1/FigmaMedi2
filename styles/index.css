@@ -1,4 +1,122 @@
-nav {
-    display: inline-block
+.topnav {
+    display: inline
 }
 /*hur får jag navigeringen vågrät?*/
+
+section {
+    display: inline-block
+}
+
+.logo {
+    color: #0A1B32;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 160%; /* 48px */
+    letter-spacing: -0.6px;
+    margin-top: 37px;
+    margin-left: 80px;
+}
+
+.logo-dot {
+    color: #824FF1;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 160%;
+    letter-spacing: -0.6px;
+}
+
+.topnav {
+    color: #1B0A42;
+    float: left;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+}
+
+.nav-button{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+    border-radius: 6px;
+    background: #824FF1;
+    width: 120px;
+    height: 60px;
+    border: none;
+    margin-top: 30px;
+    margin-right: 68px;
+    margin-left: 1412px;
+    margin-bottom: 830px;
+}
+
+.main-title {
+    color: #1B0A42;
+    font-family: 'Ramaraja', serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 76px; /* 105.556% */
+    letter-spacing: 1.44px;
+    margin-top: 203px;
+    margin-left: 200px;
+    max-width: 495px;
+    width: 100%;
+}
+
+.main-text {
+    color: #9A9A9A;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    letter-spacing: 0.4px;
+    margin-top: 10px;
+    margin-left: 200px;
+    max-width: 590px;
+    width: 100%;
+}
+
+.main-button {    
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 200% */
+    letter-spacing: 0.32px;
+    border-radius: 6px;
+    background: #824FF1;
+    width: 152px;
+    height: 64px;
+    border: none;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+#yogapurple {
+    margin-top: 136px;
+    margin-right: 92px;
+    margin-bottom: 82px;
+    margin-left: 66px;
+}
+
+#wavespurple {
+    margin-top: 136px;
+    margin-right: 92px;
+    margin-bottom: 82px;
+    margin-left: 66px;
+}
