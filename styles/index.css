@@ -1,10 +1,23 @@
-.topnav {
-    display: inline
-}
-/*hur får jag navigeringen vågrät?*/
+/*trying to get the sections side-by-side*/
 
-section {
+/*section {
     display: inline-block
+}*/
+
+/*section img {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}*/
+
+/*same problem in both FigmaMedi projects. How to get the sections sid-by-side? When typing, display: flex, 
+the text section goes bananas..but inline-block doesn't work either*/
+
+header {
+    height: 100vh;
+    width: 100%;
 }
 
 .logo {
@@ -13,7 +26,7 @@ section {
     font-size: 30px;
     font-style: normal;
     font-weight: 900;
-    line-height: 160%; /* 48px */
+    line-height: 160%;
     letter-spacing: -0.6px;
     margin-top: 37px;
     margin-left: 80px;
@@ -29,7 +42,7 @@ section {
     letter-spacing: -0.6px;
 }
 
-.topnav {
+.nav-list {
     color: #1B0A42;
     float: left;
     text-align: center;
@@ -37,8 +50,21 @@ section {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 150% */
+    line-height: 24px;
     letter-spacing: 0.32px;
+}
+
+#sign-in {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
 }
 
 .nav-button{
@@ -48,7 +74,7 @@ section {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: 24px; /* 150% */
+    line-height: 24px;
     letter-spacing: 0.32px;
     border-radius: 6px;
     background: #824FF1;
@@ -57,8 +83,8 @@ section {
     border: none;
     margin-top: 30px;
     margin-right: 68px;
-    margin-left: 1412px;
-    margin-bottom: 830px;
+    margin-left: 40px;
+    margin-bottom: 48px;
 }
 
 .main-title {
@@ -67,9 +93,10 @@ section {
     font-size: 72px;
     font-style: normal;
     font-weight: 400;
-    line-height: 76px; /* 105.556% */
+    line-height: 76px;
     letter-spacing: 1.44px;
     margin-top: 203px;
+    margin-right: 90px;
     margin-left: 200px;
     max-width: 495px;
     width: 100%;
@@ -81,7 +108,7 @@ section {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px; /* 160% */
+    line-height: 32px;
     letter-spacing: 0.4px;
     margin-top: 10px;
     margin-left: 200px;
@@ -96,18 +123,23 @@ section {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: 32px; /* 200% */
+    line-height: 32px;
     letter-spacing: 0.32px;
     border-radius: 6px;
     background: #824FF1;
     width: 152px;
     height: 64px;
     border: none;
+    padding: none;
     margin-top: 50px;
     margin-left: 200px;
 }
 
 #yogapurple {
+    width: 658px;
+    height: 700px;
+    padding: none;
+    margin: none;
     margin-top: 136px;
     margin-right: 92px;
     margin-bottom: 82px;
@@ -115,6 +147,10 @@ section {
 }
 
 #wavespurple {
+    width: 821px;
+    height: 509px;
+    padding: none;
+    margin: none;
     margin-top: 136px;
     margin-right: 92px;
     margin-bottom: 82px;
